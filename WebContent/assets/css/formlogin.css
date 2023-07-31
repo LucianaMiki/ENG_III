@@ -1,0 +1,82 @@
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #34495e;
+  }
+  ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+	color: #c6c7c6;
+  }
+  ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: #ffffff;
+	content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+	color: #ffffff;
+  }
+  ul.breadcrumb li a:hover {
+	color: #4eb980;
+  }
+
+body {
+	background-color: #34495e;
+	font-family: sans-serif;
+}
+
+.form {	/* Formulário */
+	width: 400px;
+	margin: auto;
+	padding-top: 60px;
+}
+
+.card {	/* Cartão do formulário */
+	box-shadow: 1px 1px 5px #ccc;
+	background-color: white;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.card-top {	/* Topo do cartão */
+	text-align: center;
+}
+
+.card-group { /* Grupo dentro do cartão */
+	margin-bottom: 10px;
+}
+
+.card-group > label {	/* Nomes dos campos */
+	width: 100%;
+	color:#4EB980;
+	display: block;
+}
+
+.card-group > input {	/* Inputs dos dados */
+	border-radius: 5px;
+	outline: 0;
+	width: 100%;
+	height: 25px;
+	padding: 5px;
+	border-color: #4EB980;
+}
+
+.card-group > button { /* Botão do cartão */
+	color: white;
+	background-color: #4EB980;
+	width: 100%;
+	border-radius: 25px;
+	border: 0px;
+	outline: 0;
+	padding: 15px;
+	
+}
+
+.btn button:hover {	/* Efeito do botão "Entrar" */
+	background-color: #329C63;
+}
+.imglogin { /* Imagem do usuário */
+	border-radius: 50px;
+	width: 100px;	
+	background-color: #4EB980;
+}
